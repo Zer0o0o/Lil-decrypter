@@ -52,17 +52,17 @@ def splash_screen(width):
     text = "Lil decrypter v1.0"
     # First line of symbols
     for i in range(width):
-        print("-", end="")
+        print("-", end= "")
 
     spaces = (width - len(text)) // 2
     for i in range(spaces):
-        print(" ", end="")
+        print(" ", end= "")
 
     print("\033[91m" + text + "\033[0;0m")
 
     # Second line of symbols
     for i in range(width):
-        print("-", end="")
+        print("-", end= "")
 
 
 if __name__ == '__main__':
